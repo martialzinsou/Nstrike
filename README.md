@@ -1,10 +1,10 @@
-# Nstrike — Chaîne de blocs légère (MVP)
+# Nstrike — Blockchain légère (MVP)
 
 ---
 
 ## 📖 Description
 
-**Nstrike** est une implémentation *from scratch* d'une chaîne de blocs de type Ethereum, écrite entièrement en C++17 moderne sans aucune bibliothèque externe (ni OpenSSL, ni Boost, ni secp256k1). Le projet vise à démontrer le fonctionnement interne d'une blockchain complète : cryptographie, machines virtuelles, consensus Proof-of-Work, comptes, jetons ERC-20, RPC JSON et CLI.
+**Nstrike** est une implémentation *from scratch* d'une **Blockchain** de type Ethereum, écrite entièrement en C++17 moderne sans aucune bibliothèque externe (ni OpenSSL, ni Boost, ni secp256k1). Le projet vise à démontrer le fonctionnement interne d'une **Blockchain** complète : cryptographie, machines virtuelles, consensus Proof-of-Work, comptes, jetons ERC-20, RPC JSON et CLI.
 
 > **Auteur** : Martial Zinsou  
 > **Version** : 0.1.0 (MVP)  
@@ -23,7 +23,7 @@
 | **Transactions** | Sérialisation canonique (magic + big-endian), signature ECDSA + recovery ID, vérification expéditeur (`ecrecover`), gas |
 | **Mini-VM (NVM)** | Interpréteur pile 32 octets, opcodes style EVM (arithmétique, sauts, storage, calldata, Keccak, résultat), assembleur avec labels & `PUSH_SEL` |
 | **Jeton ERC-20** | Template compilé en NVM : `totalSupply`, `balanceOf`, `transfer`, `approve`, `allowance`, `transferFrom`, `name`, `symbol`, `decimals` |
-| **Chaîne & Consensus** | Blocs (en-tête + txs), PoW léger (zéros de tête Keccak double), difficulté ajustable (fenêtre 24 blocs), récompense 50 NST + halving 210 000 blocs, mempool |
+| **Blockchain & Consensus** | Blocs (en-tête + txs), PoW léger (zéros de tête Keccak double), difficulté ajustable (fenêtre 24 blocs), récompense 50 NST + halving 210 000 blocs, mempool |
 | **RPC JSON 2.0** | `getbalance`, `sendtx`, `getblock`, `getblockcount`, `getgasprice`, `mine`, `chainstatus`, `deploytoken`, `callcontract` |
 | **CLI** | `account new/list`, `address`, `balance`, `send`, `token create/transfer/balance`, `mine`, `chain`, `rpc` |
 
@@ -149,7 +149,7 @@ make clean
 ./build/nstrike token balance 0xTokenAddr 0xUserAddr
 ```
 
-### État de la chaîne
+### État de la Blockchain
 
 ```bash
 ./build/nstrike chain

@@ -1,5 +1,5 @@
 // ------------------------------------------------------------------
-// Nstrike — implémentation de la chaîne : fonction de hachage d'en-tête,
+// Nstrike — implémentation de la Blockchain : fonction de hachage d'en-tête,
 // PoW par zéros de tête, ajustement de difficulté, récompense avec
 // halving, mempool et exécution des transactions (gas + NVM).
 // Auteur : Martial Zinsou

@@ -1,5 +1,5 @@
 // ------------------------------------------------------------------
-// Nstrike — chaîne de blocs : en-têtes, PoW « léger » (zéros de tête
+// Nstrike — Blockchain : en-têtes, PoW « léger » (zéros de tête
 // Keccak-256), ajustement de difficulté, récompense/halving, mempool et
 // application des transactions (virements + appels de contrat via NVM).
 // Auteur : Martial Zinsou
