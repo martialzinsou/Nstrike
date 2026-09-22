@@ -1,15 +1,17 @@
 # Nstrike — Chaîne de blocs légère (MVP)
 
-> **Auteur** : Martial Zinsou  
-> **Version** : 0.1.0 (MVP)  
-> **Licence** : MIT  
-> **Langage** : C++17 (sans dépendance externe)
-
 ---
 
 ## 📖 Description
 
 **Nstrike** est une implémentation *from scratch* d'une chaîne de blocs de type Ethereum, écrite entièrement en C++17 moderne sans aucune bibliothèque externe (ni OpenSSL, ni Boost, ni secp256k1). Le projet vise à démontrer le fonctionnement interne d'une blockchain complète : cryptographie, machines virtuelles, consensus Proof-of-Work, comptes, jetons ERC-20, RPC JSON et CLI.
+
+> **Auteur** : Martial Zinsou  
+> **Version** : 0.1.0 (MVP)  
+> **Licence** : MIT  
+> **Langage** : C++17 (sans dépendance externe)
+
+
 
 ### Fonctionnalités principales
 
