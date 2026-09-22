@@ -1,3 +1,4 @@
+<meta name="google-site-verification" content="NXMEj6ESFJFiBGZP43G1v36Kka9lC_4Wfum2OMRZTBU" />
 # ERC-20 Template — Contrat Jeton Compilé en NVM
 
 > **Module** : `src/vm.hpp/.cpp` — `erc20Bytecode()`, `erc20Deploy()`

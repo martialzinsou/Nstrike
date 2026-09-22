@@ -1,3 +1,4 @@
+<meta name="google-site-verification" content="NXMEj6ESFJFiBGZP43G1v36Kka9lC_4Wfum2OMRZTBU" />
 # RPC Specification — JSON-RPC 2.0
 
 > **Module** : `src/rpc.hpp/.cpp`

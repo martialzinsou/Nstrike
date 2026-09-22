@@ -1,3 +1,4 @@
+<meta name="google-site-verification" content="NXMEj6ESFJFiBGZP43G1v36Kka9lC_4Wfum2OMRZTBU" />
 # State and Accounts — Comptes, Stockage, Racines d'État
 
 > **Module** : `src/state.hpp/.cpp`

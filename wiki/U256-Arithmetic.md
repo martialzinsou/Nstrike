@@ -1,3 +1,4 @@
+<meta name="google-site-verification" content="NXMEj6ESFJFiBGZP43G1v36Kka9lC_4Wfum2OMRZTBU" />
 # U256 Arithmetic — Entier 256 bits & Arithmétique Modulaire
 
 > **Module** : `src/common.hpp/.cpp` — classe `u256`
