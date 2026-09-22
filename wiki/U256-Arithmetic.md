@@ -1,6 +1,14 @@
 # U256 Arithmetic — Entier 256 bits & Arithmétique Modulaire
 
-> **Module** : `src/common.hpp/.cpp` — classe `u256`  
+> **Module** : `src/common.hpp/.cpp` — classe `u256`
+
+---
+
+## 📘 About
+
+**Description** : Arithmétique modulo 2^256 from scratch utilisant la représentation sur 4×uint64_t little-endian. Opérations supportées : addMod, subMod, mulMod (Montgomery REDC), powMod, invMod (Fermat), divmod exact. Vecteurs de test FIPS et XKCP validés.
+
+**Tags** : #u256 #arithmetic #montgomery #modular #math #256bit #from-scratch  
 > **Auteur** : Martial Zinsou
 
 ---

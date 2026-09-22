@@ -1,6 +1,18 @@
 # Cryptography — SHA-256, Keccak-256, secp256k1, ECDSA
 
-> **Module** : `src/sha256.hpp/.cpp`, `src/keccak.hpp/.cpp`, `src/crypto.hpp/.cpp`  
+> **Module** : `src/sha256.hpp/.cpp`, `src/keccak.hpp/.cpp`, `src/crypto.hpp/.cpp`
+
+---
+
+## 📘 About
+
+**Description** : Implémentation from scratch de primitives cryptographiques essentielles :
+- SHA-256 (FIPS 180-4) — hashage de blocs, vecteurs de test XKCP validés
+- Keccak-256 — permutation Keccak-f[1600], standard Ethereum
+- secp256k1 — courbe elliptique, ECDSA, ecrecover, RFC 6979 nonces déterministes
+- HMAC-SHA256 — utilisation RFC 6979 pour génération nonce ECDSA
+
+**Tags** : #cryptography #sha256 #keccak #secp256k1 #ecdsa #rfc6979 #hash #crypto  
 > **Auteur** : Martial Zinsou
 
 ---
